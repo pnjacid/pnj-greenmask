@@ -1,0 +1,9 @@
+services:
+  greenmask-personalia:
+    volumes:
+      - ./personalia:/var/lib/personalia
+    image: "greenmask/greenmask:latest"
+    working_dir: /var/lib/personalia
+    environment:
+      PGPASSWORD: example
+    #entrypoint: "/var/lib/playground/run.sh"
