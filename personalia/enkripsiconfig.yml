@@ -99,6 +99,24 @@ dump:
                 max_ratio: ENC[AES256_GCM,data:7/qS9ygGnDy1Or2tnktmBpIz3g==,iv:G+ezhYBYKgJOcBnN8XiUlXKIT03W88NPydLz3BvHhgQ=,tag:F2cUx9Z7qqIX2PmCPRlmXQ==,type:str]
                 #ENC[AES256_GCM,data:lFJWkWusSYGfYSFVwx01Peryr7Gnq2bYQ17VBB7AuicfKwRmmzlGEABULQMjKwf8ZANDjXBMIJUMnPneFGkiawyOGeZHSak=,iv:bIWdmbMzu3YarctEx5hydi2IP9SnG5yDrFeFmbjL3pw=,tag:tfXcHQviOchO/3hkka+/hg==,type:comment]
                 column: ENC[AES256_GCM,data:9c1x5PQATn6SgHQ=,iv:56Zw76BwdhzF/oBukjmGkPoyC8U4Tzb8gjWmk1qJDIg=,tag:GlFX1lhwp+O1b8TTEuF03g==,type:str]
+            - name: ENC[AES256_GCM,data:Zesrw5sxAEY7k5s=,iv:uYb+AoDwLLhMhZ7cX+V4PNvhL2MKDUxybWxtbi3UoPA=,tag:xXzB/iD2vKWlu3vUdiIYzw==,type:str]
+              params:
+                columns:
+                    - name: ENC[AES256_GCM,data:ash5p0+E8P2UI/OG,iv:IPQbZmDLswlYsDSscTyYwZpJEgY74/ikdlLQbCrP9MM=,tag:FfL/FfbZ8KSBzMsEBu6ctg==,type:str]
+                      template: ENC[AES256_GCM,data:IxXZPdjXkcVmPZGv,iv:E6ikCTJ0KAQ4DcWOgLsiLLPWBOF3wM8Vs18IJ6D//vY=,tag:1TIDyx+YNcO+S0CNCfgzBw==,type:str]
+                      keep_null: ENC[AES256_GCM,data:iGXubfE=,iv:W20fCTFnN3dKG071Qiu1ABoZjj1jBupRh9KTTXNABK4=,tag:EtA9OgrrfKCiE2trJ1GDtw==,type:bool]
+            - name: ENC[AES256_GCM,data:Zesrw5sxAEY7k5s=,iv:uYb+AoDwLLhMhZ7cX+V4PNvhL2MKDUxybWxtbi3UoPA=,tag:xXzB/iD2vKWlu3vUdiIYzw==,type:str]
+              params:
+                columns:
+                    - name: ENC[AES256_GCM,data:B29ccr+5kQQbxV2e,iv:jSrGwiy8vxhuFnU7sU33EarjFan0epYN/2n8YJkM+94=,tag:S5hple9gNa3VvFrR20tFFA==,type:str]
+                      template: ENC[AES256_GCM,data:U4DxttQIOQBj,iv:WM4tz7e+10Fi7EV8GFH4zBwZeSMqNYya3y+oWwRw1lU=,tag:hncbRIIhNSY6WnER0ovpTg==,type:str]
+                      keep_null: ENC[AES256_GCM,data:iGXubfE=,iv:W20fCTFnN3dKG071Qiu1ABoZjj1jBupRh9KTTXNABK4=,tag:EtA9OgrrfKCiE2trJ1GDtw==,type:bool]
+            - name: ENC[AES256_GCM,data:Zesrw5sxAEY7k5s=,iv:uYb+AoDwLLhMhZ7cX+V4PNvhL2MKDUxybWxtbi3UoPA=,tag:xXzB/iD2vKWlu3vUdiIYzw==,type:str]
+              params:
+                columns:
+                    - name: ENC[AES256_GCM,data:v5yaze/JAP23ytLiQOeztA==,iv:eF/yd0pESWRokRd203vLtTX9JFvtpS3aZn4JcpFSqkg=,tag:4scJYdL21eUPTvrUtBDrlg==,type:str]
+                      template: ENC[AES256_GCM,data:IArVtLR9pOqmlA==,iv:1XXP9FxPyz0tbApqjn2TGv9u2xZOnYx22D2CB0+gGdg=,tag:eNphFPEBYisbi8YlRaD8xA==,type:str]
+                      keep_null: ENC[AES256_GCM,data:iGXubfE=,iv:W20fCTFnN3dKG071Qiu1ABoZjj1jBupRh9KTTXNABK4=,tag:EtA9OgrrfKCiE2trJ1GDtw==,type:bool]
 restore:
     #ENC[AES256_GCM,data:4lQYxkXKrhH16clbtKVOeZZeb/G61a4gWsezuIbGDKYlgwelhvaKUts6ikF5XRv2dmA4LnP2iido8/l63hYGkbe/5g==,iv:5Dc1TguE6kDCdZ1djzCQy/7YfxwmNKFUEW61dV5Ur98=,tag:aY/x1Niu08H8Hm6jadyxKA==,type:comment]
     pg_restore_options:
@@ -144,7 +162,7 @@ sops:
             THpWTEt1MUNHR2F4cXpVemdqVXJrR1kKrXu2BArewVHF0b1V0c98eHkQq+AVZjqm
             jXWxLMg14+tv2WuJIGXYXpcq60u8VNRtygLtyJcFNX1iKmWVkFQdkw==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2026-05-08T04:42:13Z"
-    mac: ENC[AES256_GCM,data:QbrzlYH5gtNlLgTkgxz6tahvcGK5lfE897Cv1z260WgNHaHa5GaMzwIKKHxoyY2ynFpfhVSCYMcQH7pnJVgHsmNeBSO0p8KfoMzxQgSb1Yn5VsXMvGDQA1gr2bbsEMxkQqnNWfnqsM39l2mqWa34SbPRP77k9xfP9/06pJtJ9OU=,iv:c3P17mCWMbELehRXrXrkR6KkPYS7etKyl/9vD+9dCIk=,tag:dVanusG94PZlI+SdbVpHIw==,type:str]
+    lastmodified: "2026-05-08T06:51:46Z"
+    mac: ENC[AES256_GCM,data:bahF58L1bub91wE6Nt3xAVVL8tld7VY8Pn9ibE3IlAu+dHWmJDKHoenVGqhdGTFswLuLIYJc0bOSCpYZr3xYWN2CSN7dOm6OSBnrYZxOjDnKVwyyNFSPSBhYeE/I0iHaJ8bxlIKe5agQEWgT3KQx3KFzJMpXNL29vBZQK0egdis=,iv:xMGEp315YdfYMcLjc8Fiq9oIDiccg1Uglu3H1vbw/4k=,tag:vWoX9Tz2Hf5K9RJnSs0n7w==,type:str]
     unencrypted_suffix: _unencrypted
     version: 3.12.2
