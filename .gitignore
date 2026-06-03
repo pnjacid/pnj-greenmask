@@ -17,16 +17,128 @@ bin/
 # Dependency directories (remove the comment below to include it)
 vendor/
 
-# IDEs directories
-.idea
-.vscode
+# IDEs and Editors
+## JetBrains (IntelliJ, GoLand, WebStorm, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+## Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+## Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ntvs_analysis.dat
+
+## Vim / Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+tags
+
+## Emacs
+*#
+.#*
+\#*#
+*.elc
+auto-save-list
+tramp
+.\#*
+
+## Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+## Atom
+.atom/
+.build/
+
+## TextMate
+*.tmproj
+*.tmproject
+tmtags
+
+## Eclipse
+.metadata
+.classpath
+.project
+.settings/
+*.launch
+.externalToolBuilders/
+.recommenders/
+
+## NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+## Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Operating Systems
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+## Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+## Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Project exclusion
 scratch
 config.yml
 !playground/config.yml
-
-# Project exclusion
 site
 venv
 .cache
+
 # Binaries
 cmd/greenmask/greenmask
